@@ -1,11 +1,9 @@
 # SuReFAR
 
 ![Last Commit](https://img.shields.io/github/last-commit/kkkimsuji/SuReFAR?style=flat-square)
-
-This repository contains the official implementation of the following paper:
-> **Enhancing Recommendation with Integration of Extractive and Abstractive Summarization**  
-> Minkyung Park, **Suji Kim**, Xinzhe Li, Seonu Park, Jaekyeong Kim  
-> *Electronics*, under review
+[![Paper](https://img.shields.io/badge/MDPI_Electronics-Paper-blue)](https://doi.org/10.3390/electronics15071477)
+[![DOI](https://img.shields.io/badge/DOI-10.3390/electronics15040753-red)](https://doi.org/10.3390/electronics15071477)
+>Park, M., Kim, S., Li, X., Park, S., & Kim, J. (2026). Enhancing Recommendation with Integration of Extractive and Abstractive Summarization. Electronics, 15(7), 1477.
 
 ## Overview
 
@@ -112,14 +110,14 @@ In summary, SuReFAR leverages the complementary strengths of **TextRank** and **
 
 ## Experimental Results
 
-The following table summarizes the performance comparison reported in the paper. SuReFAR consistently achieves the best results across the **Books**, **Movie**, and **Yelp** datasets.
+The following table summarizes the performance comparison reported in the paper. SuReFAR consistently achieves the best results across the **Books**, **Movie and TV**, and **Yelp** datasets.
 
 <table width="100%" style="border-collapse: collapse; text-align: center; font-family: sans-serif; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #f8f9fa; border-bottom: 1px solid #dee2e6;">
       <th rowspan="2" style="padding: 12px; border: 1px solid #ddd;">Model</th>
       <th colspan="2" style="padding: 12px; border: 1px solid #ddd;">Books</th>
-      <th colspan="2" style="padding: 12px; border: 1px solid #ddd;">Movie</th>
+      <th colspan="2" style="padding: 12px; border: 1px solid #ddd;">Movie and TV</th>
       <th colspan="2" style="padding: 12px; border: 1px solid #ddd;">Yelp</th>
     </tr>
     <tr style="background-color: #f8f9fa; border-bottom: 2px solid #dee2e6;">
@@ -157,7 +155,7 @@ The following table summarizes the performance comparison reported in the paper.
       <td style="padding: 10px; border: 1px solid #ddd;">0.780</td>
       <td style="padding: 10px; border: 1px solid #ddd;">1.083</td>
       <td style="padding: 10px; border: 1px solid #ddd;">0.842</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">1.083</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">1.080</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">AENAR</td>
@@ -181,10 +179,10 @@ The following table summarizes the performance comparison reported in the paper.
       <td style="padding: 10px; border: 1px solid #ddd; color: #1a7f37;">SuReFAR (Ours)</td>
       <td style="padding: 10px; border: 1px solid #ddd; color: #1a7f37;">0.476</td>
       <td style="padding: 10px; border: 1px solid #ddd; color: #1a7f37;">0.757</td>
-      <td style="padding: 10px; border: 1px solid #ddd; color: #1a7f37;">0.702</td>
-      <td style="padding: 10px; border: 1px solid #ddd; color: #1a7f37;">1.071</td>
-      <td style="padding: 10px; border: 1px solid #ddd; color: #1a7f37;">0.825</td>
+      <td style="padding: 10px; border: 1px solid #ddd; color: #1a7f37;">0.696</td>
       <td style="padding: 10px; border: 1px solid #ddd; color: #1a7f37;">1.070</td>
+      <td style="padding: 10px; border: 1px solid #ddd; color: #1a7f37;">0.820</td>
+      <td style="padding: 10px; border: 1px solid #ddd; color: #1a7f37;">1.068</td>
     </tr>
   </tbody>
 </table>
